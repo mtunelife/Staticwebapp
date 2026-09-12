@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add a Character</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="details.html">Details</a>
+        <a href="about.html">About</a>
+        <a href="new-character-form.html">Add a Character</a>
+    </nav>
+
+
+    <header>
+        <h1>Add a New Character</h1>
+        <p>Add a fictional character to the gallery.</p>
+    </header>
+
+
+    <form>
+
+        <label for="name">Character Name *</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter character name"
+            required
+        >
+
+
+        <label for="universe">Universe *</label>
+        <input
+            type="text"
+            id="universe"
+            name="universe"
+            placeholder="Example: Marvel"
+            required
+        >
+
+
+        <label for="role">Role *</label>
+        <input
+            type="text"
+            id="role"
+            name="role"
+            placeholder="Example: Hero"
+            required
+        >
+
+
+        <label for="image">Image URL</label>
+        <input
+            type="url"
+            id="image"
+            name="image"
+            placeholder="https://example.com/image.jpg"
+        >
+
+
+        <label for="description">Description</label>
+        <textarea
+            id="description"
+            name="description"
+            rows="5"
+            placeholder="Enter a short description..."
+        ></textarea>
+
+
+        <button type="submit">Add Character</button>
+
+    </form>
+
+</body>
+</html>
